@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{EBCD6092-A2DC-406F-B10F-0DEAB67EECA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "luma-web.Server", "luma-web.Server\luma-web.Server.csproj", "{1812B180-86A6-4818-8730-FDC53E724CBD}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "luma-web.client", "luma-web.client\luma-web.client.esproj", "{AFB67252-3F71-4D16-8A98-E1B5627B7866}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EBCD6092-A2DC-406F-B10F-0DEAB67EECA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBCD6092-A2DC-406F-B10F-0DEAB67EECA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBCD6092-A2DC-406F-B10F-0DEAB67EECA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBCD6092-A2DC-406F-B10F-0DEAB67EECA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1812B180-86A6-4818-8730-FDC53E724CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1812B180-86A6-4818-8730-FDC53E724CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1812B180-86A6-4818-8730-FDC53E724CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1812B180-86A6-4818-8730-FDC53E724CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB67252-3F71-4D16-8A98-E1B5627B7866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB67252-3F71-4D16-8A98-E1B5627B7866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB67252-3F71-4D16-8A98-E1B5627B7866}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AFB67252-3F71-4D16-8A98-E1B5627B7866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB67252-3F71-4D16-8A98-E1B5627B7866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB67252-3F71-4D16-8A98-E1B5627B7866}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {14A6057E-A7C5-4FAC-9889-1E59B2F83BD0}
+		SolutionGuid = {AFB4D6A6-4468-47E7-B804-7D10E9E35454}
 	EndGlobalSection
 EndGlobal

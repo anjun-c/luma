@@ -1,4 +1,4 @@
-namespace WebApplication1
+namespace luma_web.Server
 {
     public class WeatherForecast
     {
